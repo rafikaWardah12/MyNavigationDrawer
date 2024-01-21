@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private lateinit var profileCircleImageView: CircleImageView
-    private var profileImageUrl = "https://media.licdn.com/dms/image/D5603AQH1oCAdbN90Yw/profile-displayphoto-shrink_400_400/0/1701007803771?e=1711584000&v=beta&t=nVs2fTkxB_ubkNtO7zRtC0_lHzw4jvvemxkBoQx5BOY"
+    private var profileImageUrl =
+        "https://media.licdn.com/dms/image/D5603AQH1oCAdbN90Yw/profile-displayphoto-shrink_400_400/0/1701007803771?e=1711584000&v=beta&t=nVs2fTkxB_ubkNtO7zRtC0_lHzw4jvvemxkBoQx5BOY"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,7 +48,10 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home,
+                R.id.nav_gallery,
+                R.id.nav_slideshow,
+                R.id.nav_cart
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

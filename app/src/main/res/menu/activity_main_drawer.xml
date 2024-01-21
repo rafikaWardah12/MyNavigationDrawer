@@ -22,4 +22,21 @@
             android:title="@string/menu_cart"/>
     </group>
 
+    <item  android:title="@string/menu_map">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map"
+                android:title="@string/menu_map" />
+            <item
+                android:id="@+id/nav_hotel"
+                android:icon="@drawable/ic_hotel"
+                android:title="@string/menu_hotel" />
+            <item
+                android:id="@+id/nav_subway"
+                android:icon="@drawable/ic_subway"
+                android:title="@string/menu_subway" />
+        </menu>
+    </item>
+
 </menu>
